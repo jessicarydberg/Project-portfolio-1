@@ -1,5 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Artifika&family=Asul&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+h1 {
+    font-family: Artfika, sans-serif;
+}
+
+nav {
+    font-family: Asul, sans-serif;
+}
+
 body {
-    color: black;
-    margin: 30px;
-    text-align: center;
+    font-family: Asul, sans-serif;
 }
