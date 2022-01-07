@@ -10,6 +10,12 @@ body {
     font-family: Asul, sans-serif;
 }
 
+header {
+    position: absolute;
+    padding: 80px;
+    margin-left: 200px;
+}
+
 /* Heading: Logo and links */
 
 h1, h2 {
@@ -19,21 +25,32 @@ h1, h2 {
 
 nav {
     text-align: center;
-    padding-right: 280px;
 }
 
-li {
+
+
+#logo {
+    font-size: 300%;
+}
+
+#menu li {
     display: inline;
     margin: 4px;
 }
 
-#logo {
-    text-align: center;
-    font-size: 250%;
-    padding-top: 60px;
-    padding-right: 250px;
+#menu a {
+    color: black;
+    text-decoration: none;
+}
+#menu a:hover {
+    color: white;
 }
 
-a {
-    color: black;
+/* Hero image */
+
+#hero {
+    width: 95%;
+    height: 500px;
+    background: url(../images/hero.jpg) no-repeat center center;
+    margin: 30px;
 }
